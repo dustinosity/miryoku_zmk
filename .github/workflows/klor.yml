@@ -1,7 +1,7 @@
 o# Copyright 2021 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-name: 'Build Klor w/ nice_nano_v2'
+name: 'Build Klor w/ nice_nano_v2 '
 on: workflow_dispatch
 jobs:
   build:
