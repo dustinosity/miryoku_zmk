@@ -5,7 +5,7 @@
 
 #define XXX &none
 #define MEH LC(LS(MOD_LALT))
-#define HYPER LC(LS(LA(MOD_LGUI))
+#define HYPER LC(LS(LA(MOD_LGUI)))
 
 #define MIRYOKU_LAYOUTMAPPING_KLOR( \
      K00, K01, K02, K03, K04,                K05, K06, K07, K08, K09, \
