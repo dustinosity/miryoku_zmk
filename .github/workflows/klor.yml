@@ -10,9 +10,8 @@ jobs:
     with:
       board: '["nice_nano_v2"]'
       shield: '["klor_left","klor_right"]'
-      alphas: '["qwerty"]'
+      alphas: '["default"]'
       nav: '["default"]'
       clipboard: '["default"]'
       layers: '["default"]'
-      custom_config: '["#define MIRYOKU_TAP_QWERTY\n#define MIRYOKU_EXTRA_COLEMAKDH"]'
       kconfig: '["CONFIG_EC11=y\nCONFIG_EC11_TRIGGER_GLOBAL_THREAD=y\nCONFIG_ZMK_DISPLAY=y"]'
