@@ -15,3 +15,4 @@ jobs:
       clipboard: '["default"]'
       layers: '["default"]'
       kconfig: '["CONFIG_EC11=y\nCONFIG_EC11_TRIGGER_GLOBAL_THREAD=y\nCONFIG_ZMK_DISPLAY=y\nCONFIG_ZMK_MOUSE=y"]'
+      branches: '["zmkfirmware/zmk/main"]'
