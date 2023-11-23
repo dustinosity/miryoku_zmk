@@ -10,7 +10,7 @@
             #binding-cells = <0>;
             bindings
                 = <&macro_press &kp LCTRL>
-                , <&macro_tap &mkp LCTRL >
+                , <&macro_tap &mkp LCLK>
                 , <&macro_release &kp LCTRL>
                 ;
         };
