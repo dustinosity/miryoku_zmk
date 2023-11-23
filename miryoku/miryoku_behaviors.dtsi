@@ -41,5 +41,25 @@
                 , <&macro_release &kp LCTRL>
                 ;
         };
+        ctrl_middle_click: ctrl_middle_click {
+            label = "ZM_ctrl_middle_click";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&macro_tap &mkp MCLK>
+                , <&macro_release &kp LCTRL>
+                ;
+        };
+        ctrl_right_click: ctrl_right_click {
+            label = "ZM_ctrl_right_click";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&macro_tap &mkp RCLK>
+                , <&macro_release &kp LCTRL>
+                ;
+        };
     };
 }; 
