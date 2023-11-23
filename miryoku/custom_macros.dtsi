@@ -1,0 +1,14 @@
+/ {
+    macros {
+        ctrl_left_click: ctrl_left_click {
+            label = "ZM_ctrl_left_click";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&macro_tap &mkp LCLK>
+                , <&macro_release &kp LCTRL>
+                ;
+        };
+    };
+};
