@@ -1,21 +1,8 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 #include <dt-bindings/zmk/mouse.h>
+#include "custom_macros.dtsi"
 
-/ {
-    macros {
-        ctrl_left_click: ctrl_left_click {
-            label = "ZM_ctrl_left_click";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LCTRL>
-                , <&macro_tap &mkp LCLK>
-                , <&macro_release &kp LCTRL>
-                ;
-        };
-    };
-};
 
 #define MIRYOKU_LAYER_MEDIA \
 U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA,              U_RGB_TOG,         U_RGB_EFF,         U_RGB_HUI,         U_RGB_SAI,         U_RGB_BRI,         \
