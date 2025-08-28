@@ -4,13 +4,3 @@
 &led_strip {
     chain-length = <21>;
 };
-
-&sensors {
-    left_encoder {
-        triggers-per-rotation = <15>;
-    };
-
-    right_encoder {
-        triggers-per-rotation = <15>;
-    };
-};
